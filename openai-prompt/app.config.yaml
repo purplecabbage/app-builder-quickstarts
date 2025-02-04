@@ -1,0 +1,8 @@
+extensions:
+  dx/excshell/1:
+    $include: src/dx-excshell-1/ext.config.yaml
+configSchema:
+  - title: "Open AI api key"
+    type: "string"
+    secret: true
+    envKey: "OPENAI_API_KEY"
